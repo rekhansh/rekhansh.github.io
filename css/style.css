@@ -54,3 +54,43 @@ body
 	font-size: 15px;
 	color: darkslategray;
 }
+#skills
+{
+	margin-top: 10px;
+}
+#skill_box
+{
+	margin: 15px
+}
+#project_box
+{
+	margin-top: 5px;
+}
+.projects
+{
+	
+	background-color: mintcream;
+	padding: 10px;
+	margin-top: 5px;
+}
+.project_title
+{
+	color: cornflowerblue;
+	font-size: 25px;
+	margin-left: 25px;
+}
+.projects li
+{
+	color: dimgrey;
+	margin-top: 5px;
+	padding-left: 25px
+}
+#contact
+{
+	margin-top: 10px;
+}
+#contact_details
+{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
