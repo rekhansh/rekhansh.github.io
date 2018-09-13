@@ -8,20 +8,25 @@ body
 {
 	background-color: lightgrey;
 	margin: 15px;
+	border-radius: 5px;
+	box-shadow: 0.5px 0.5px 1px 0px;
+	display: flex;
+  	align-items: center;
 }
 #name_heading
 {
+	margin: auto;
 	text-align: center;
-	background-color: #FF9100;
-	width: 100%;
-	margin-top: 65px;
-	padding: 10px;
 	font-family: 'Skranji', cursive;
 }
 #profile_pic
 {
+	padding: 10px;
+	margin:auto;
 	float: left;
-	margin-left: 15px;
+	vertical-align: middle;
+	height: 150px;
+	width: 150px;
 }
 #education
 {
@@ -29,15 +34,28 @@ body
 }
 .heading
 {
-	padding: 10px;
+	padding: 10px 10px 10px 25px;
 	font-size: 25px;
 	background-color: #FF9100;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow: 1px 1px 2px 0px;
+}
+.heading-details
+{
+	background-color: lightgrey;
+	margin: 0px 0px 15px 0px;
+	padding: 5px 15px 15px 15px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 1px 1px 2px 0px;
 }
 .education_div
 {
-	background-color:lightgrey;
-	margin-top: 10px;
-	padding: 10px;
+	background-color:#DFE1E4;
+	margin: 10px;
+	padding: 10px 10px 10px 20px;
+	border-radius: 5px;
 }
 .education_heading
 {
@@ -58,26 +76,47 @@ body
 {
 	margin-top: 10px;
 }
-#skill_box
+#skill_box li
 {
-	margin: 15px
+	list-style-type: none;
+	padding: 10px 10px 10px 20px;
+	margin: 5px;
+	border-radius: 5px;
+	background-color:#DFE1E4;
+
+}
+#projects
+{
+	margin-top: 10px;
 }
 #project_box
 {
-	margin-top: 5px;
+	margin-bottom: 10px;
 }
 .projects
 {
-	
-	background-color: mintcream;
-	padding: 10px;
-	margin-top: 5px;
+	background-color: #DFE1E4;
+	padding: 0px 0px 10px 0px;
+	margin-top: 10px;
+	border-radius: 5px;
+/*	box-shadow: 1px 1px 2px 0px;*/
 }
+
 .project_title
 {
-	color: cornflowerblue;
+	color: white;
 	font-size: 25px;
-	margin-left: 25px;
+	margin: 0px;
+	padding: 5px 5px 5px 25px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: grey;
+}
+.info_button
+{
+	background-color: darkgrey;
+	padding: 10.75px;
+	border-top-right-radius: 5px;
 }
 .projects li
 {
@@ -91,6 +130,18 @@ body
 }
 #contact_details
 {
-	margin-top: 10px;
-	margin-bottom: 30px;
+	padding-top: 20px;
+	text-align: center;
+}
+.col-sm-6
+{
+	padding: 5px;
+}
+.col-sm-4
+{
+	padding: 0px;
+}
+.col-lg-4
+{
+	padding: 0px;
 }
