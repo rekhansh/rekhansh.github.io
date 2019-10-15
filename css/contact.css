@@ -1,0 +1,15 @@
+#contact
+{
+    color: white;
+    padding-bottom: 50px;
+}
+#contact li
+{
+    list-style: none;
+    display: inline-flex;
+}
+#contact svg
+{
+    height: 40px;
+    width: 40px;
+}
