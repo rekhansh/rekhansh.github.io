@@ -1,0 +1,59 @@
+.projects
+{
+
+}
+.project-card
+{
+    padding: 16px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 32px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fafafa;
+    display: flex;
+    max-width: 800px;
+}
+.project-card>img
+{
+    margin: auto;
+}
+.birthdays
+{
+   background-color: #00B2CC;
+}
+.tapmax
+{
+    background-color: #6D42A3;
+}
+.project
+{
+    display: flow-root;
+    margin: auto;
+}
+.project-img
+{
+    display: table;
+    margin: auto;
+}
+.project-img img
+{
+    height: 64px;
+    width: 64px;
+    border-radius: 8px;
+}
+.project-title
+{
+    text-align: center;
+    margin: 8px;
+    font-size: 20px;
+}
+.project-details
+{
+    text-align: center;
+    margin: 16px;
+}
+.project-actions img
+{
+    display: table;
+    margin: auto;
+    height: 50px;
+}

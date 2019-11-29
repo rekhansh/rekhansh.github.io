@@ -1,0 +1,81 @@
+:root {
+    --drawer-size:25%;
+  }
+.root
+{
+    display:flex;
+    flex-direction: column;
+}
+.drawer
+{
+   background-color:#fafafa;
+   height: 100vh;
+   display: flex;
+   position: fixed;
+   width: var(--drawer-size);
+   max-width: 256px;
+}
+.drawer-shadow
+{
+    background-color: rgba(0,0,0,.32);
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.drawer aside
+{
+    display: flex;
+    left: 0;
+    right: auto;
+    z-index: 5;
+    box-shadow: 0 8px 10px -5px rgba(0,0,0,.2), 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12);
+}
+.drawer nav
+{
+    width: 100%;
+    padding-top: 50px;
+}
+.profile-pic-div
+{
+    display: table;
+    margin: auto;
+}
+.drawer nav img
+{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 8px 10px -5px rgba(0,0,0,.2), 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12);
+    border-radius: 50px;
+}
+.name
+{
+    text-align: center;
+}
+.drawer nav a
+{
+    display: flex;
+    padding: 12px 24px;
+    overflow: hidden;
+    margin: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+}
+.drawer nav a:hover
+{
+    background-color:rgba(0, 0, 0, 0.26);;
+    color: #000000;
+
+}
+.content
+{
+    margin-left: var(--drawer-size);  
+}
+@media(min-width:1280px)
+{
+    .content
+    {
+        margin-left: 256px;
+    }
+}

@@ -1,0 +1,28 @@
+.experience
+{
+    max-width: 310px;
+    margin: auto auto 60px 40px;
+    padding: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fafafa;
+    border-left: solid 10px rebeccapurple;
+}
+.present
+{
+    opacity: 0.7;
+}
+.experience-year
+{
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 8px;
+}
+.experience-company img
+{
+    height: 25px;
+    padding: 8px;
+}
+.vertival-gap
+{
+    height: 5px;
+}

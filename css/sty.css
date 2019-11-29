@@ -1,0 +1,77 @@
+.container
+{
+ padding: 32px;
+ height: 100%;
+}
+#education
+{
+    background-color: skyblue;
+}
+#skills
+{
+    background-color: rebeccapurple;
+}
+#projects
+{
+    background-color: white;
+}
+#contact
+{
+    background-color: black;
+}
+.heading
+{
+    font-size: 40px;
+    margin-left: 32px;
+}
+.skills
+{
+    max-width: 310px;
+    margin: auto auto 50px auto;
+}
+#skills>h1
+{
+    color: #FAFAFA;
+}
+.skills>div
+{
+ 
+  background: #FAFAFA;
+  padding: 16px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 16px;
+  width: 250px;
+  display: inline-block;
+}
+.skills>div>div{
+    display: flex;
+}
+.skills>div>div>div{
+    margin: auto auto auto 10px;
+}
+.skills img
+{
+    height: 25px;
+}
+
+@media(min-width: 750px)
+{
+    .skills
+    {
+        max-width: 310px;
+    }
+}
+@media(min-width: 1033px)
+{
+    .skills
+    {
+        max-width: 633px;
+    }
+}
+@media(min-width: 1400px)
+{
+    .skills
+    {
+        max-width: 1000px;
+    }
+}
