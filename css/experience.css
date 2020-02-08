@@ -1,28 +1,41 @@
+#experience h1{
+    color: white;
+}
 .experience
 {
-    max-width: 310px;
-    margin: auto auto 60px 40px;
+    margin: auto 32px;
     padding: 16px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #fafafa;
-    border-left: solid 10px rebeccapurple;
+    border-left: solid 10px;
 }
-.present
+#experience-simple{
+    cursor: pointer;
+}
+.experience-title
 {
-    opacity: 0.7;
+    font-weight: bold;
+    padding: 8px 4px;
+    font-size: 24px;
 }
 .experience-year
 {
     font-family : Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    padding: 8px;
+    padding: 0px 4px;
+    font-size: 12px;
+    font-style: italic;
+    opacity: 0.7;
 }
 .experience-company img
 {
     height: 25px;
-    padding: 8px;
+    padding: 0px 4px;
 }
 .vertival-gap
 {
     height: 5px;
+}
+#experience-details li{
+    margin: 4px 0px;
+    list-style-type : circle;
 }

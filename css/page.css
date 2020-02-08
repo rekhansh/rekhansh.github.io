@@ -2,3 +2,30 @@ body
 {
     margin: 0px;
 }
+#nav-icon
+{
+    margin: auto;
+    border: #121212 1px solid;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+}
+@media(min-width:600px)
+{
+    #nav-icon
+    {
+        display: none;
+    }
+}
+#nav-icon:hover
+{
+    background-color: #838383;
+}
+#nav-icon>div
+{
+
+    width: 25px;
+    height: 3px;
+    background-color: #121212;
+    margin: 4px 0;
+}

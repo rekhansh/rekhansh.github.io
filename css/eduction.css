@@ -1,7 +1,9 @@
+#education h1{
+    color: white;
+}
 .education
 {
-    max-width: 610px;
-    margin: auto auto 100px auto;
+    margin: auto 32px;
     padding: 16px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #fafafa;

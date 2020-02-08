@@ -22,7 +22,7 @@
 }
 .tapmax
 {
-    background-color: #6D42A3;
+    background-color: #121212;
 }
 .project
 {
@@ -39,6 +39,10 @@
     height: 64px;
     width: 64px;
     border-radius: 8px;
+}
+.project-card>img
+{
+    height: 400px;
 }
 .project-title
 {
